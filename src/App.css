@@ -3,9 +3,26 @@ body{
     color: white;
 }
 
-/*
-@media only screen and (min-width:1440px){
-    .larg-h5{
-        font-size: 50px;
-    }
-}*/
+.img1{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8c593f782d1654b09c0aa7b3/jhjh688.jpg");
+}
+
+.img2{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/a24ad1604ec15337995a6352/g4.jpg");
+}
+
+.img3{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/69a33e68ad385dc2a232048f/gfgggggggggg.jpg");
+}
+
+.img4{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/e2e39f17cead5a36875282db/fgfg.jpg");
+}
+
+.img5{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/270c391596735803b0eb88f9/PSD_01.jpg");
+}
+
+.img6{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/75434504afed529795968963/fff.jpg");
+}
