@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Experiences from "./components/Experiences";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
                   <Route path="/Portfolio" element={<Portfolio/>}/>
                   <Route path="*" element={<Notfound/>}/>
               </Routes>
+          </div>
+          <div>
+              <Footer/>
           </div>
       </Router>
   );
