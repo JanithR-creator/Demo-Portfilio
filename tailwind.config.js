@@ -16,6 +16,7 @@ module.exports = {
       'table-txt':'rgb(127, 143, 166)',
       'orange':'rgb(247,145,75)',
       'white-2':'rgb(255,255,255)',
+      'none':'transparent',
     },
     extend: {
       height:{
@@ -59,6 +60,7 @@ module.exports = {
         '200':'200px',
         '150':'150px',
         '100':'100px',
+        '0.9':'90%',
       },
       fontSize:{
         '90':'90px',
