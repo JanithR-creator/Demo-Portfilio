@@ -9,7 +9,7 @@ function Portfolio() {
                     </p>
                 </div>
             </div>
-            <div className="w-full h-auto px-24 pt-2 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <div className="w-full h-auto xl:px-24 px-10 pt-2 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                 <div className='mx-2 mb-5'>
                     <div className='h-320 w-auto img1 bg-center bg-cover'></div>
                     <div className='text-center text-30 h-auto bg-white-2 text-gray font-bold p-3'>
