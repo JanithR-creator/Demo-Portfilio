@@ -10,7 +10,8 @@ function Navbar() {
         setMobileMenuOpen(false);
     };
 
-    return (<>
+    return (
+        <div>
             <nav className="h-auto w-full lg:bg-bg-nav">
                 <div className="flex lg:hidden justify-end p-3">
                     <button
@@ -91,7 +92,7 @@ function Navbar() {
                     </div>
                 </DialogPanel>
             </Dialog>
-        </>)
+        </div>)
 }
 
 export default Navbar;

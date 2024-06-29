@@ -11,24 +11,24 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-      <Router>
-          <div>
-              <Navbar/>
-          </div>
-          <div>
-              <Routes>
-                  <Route path="/" element={<Home/>}/>
-                  <Route path="/Experiences" element={<Experiences/>}/>
-                  <Route path="/About-me" element={<About/>}/>
-                  <Route path="/Contact" element={<Contact/>}/>
-                  <Route path="/Portfolio" element={<Portfolio/>}/>
-                  <Route path="*" element={<Notfound/>}/>
-              </Routes>
-          </div>
-          <div>
-              <Footer/>
-          </div>
-      </Router>
+          <Router>
+              <div className='sticky top-0'>
+                  <Navbar/>
+              </div>
+              <div>
+                  <Routes>
+                      <Route path="/" element={<Home/>}/>
+                      <Route path="/Experiences" element={<Experiences/>}/>
+                      <Route path="/About-me" element={<About/>}/>
+                      <Route path="/Contact" element={<Contact/>}/>
+                      <Route path="/Portfolio" element={<Portfolio/>}/>
+                      <Route path="*" element={<Notfound/>}/>
+                  </Routes>
+              </div>
+              <div>
+                  <Footer/>
+              </div>
+          </Router>
   );
 }
 

@@ -2,11 +2,12 @@ import {Link} from "react-router-dom";
 import React from "react";
 import myImage from '../images/myimg.png';
 import icon from "../images/download.png";
+import '../App.css'
 
 function Home() {
     return(
-        <div className="lg:flex md:flex h-auto">
-                <div className="sm:w-full md:lg:w-1/2 md:h-400 lg:h-400 xl:h-500 2xl:h-1200 md:flex flex-col justify-center">
+        <div className="h-auto w-full grid md:grid-cols-2 sm:grid-cols-1">
+                <div className="flex flex-col items-center justify-center">
                     <div className="h-auto w-full flex flex-col items-center">
                         <div>
                             <h5 className='mt-10 text-20 xl:text-25 2xl:text-45'>I'm a web-developer</h5>
@@ -42,8 +43,8 @@ function Home() {
                         </button>
                     </div>
                 </div>
-                <div className="sm:w-full md:lg:w-1/2 md:h-400 lg:h-400 xl:h-500 2xl:h-1200 flex items-center justify-center">
-                    <div className='h-auto 2xl:w-920 xl:w-390 lg:w-300 md:w-310 w-full'>
+                <div className="flex justify-center">
+                    <div className='2xl:w-920 xl:w-390 md:w-300 image'>
                         <img src={myImage} alt="myimage" className="bg-cover bg-center h-full" />
                     </div>
                 </div>
