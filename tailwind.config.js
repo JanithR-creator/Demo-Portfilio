@@ -14,7 +14,7 @@ module.exports = {
       'gray':'rgb(129,125,135)',
       'body-footer':'rgb(50,50,50)',
       'table-txt':'rgb(127, 143, 166)',
-      'btn':'rgb(247,145,75)',
+      'orange':'rgb(247,145,75)',
       'white-2':'rgb(255,255,255)',
     },
     extend: {

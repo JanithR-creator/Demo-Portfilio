@@ -36,7 +36,7 @@ function Home() {
                             </tr>
                             </tbody>
                         </table>
-                        <button className='bg-btn my-5 px-10 py-2 rounded-md flex'>
+                        <button className='bg-orange my-5 px-10 py-2 rounded-md flex'>
                             <span className='mr-1 text-12 xl:text-15 2xl:text-35'>Download CV</span>
                             <img src={icon} alt="download" className='h-5 w-5 2xl:h-12 2xl:w-12' />
                         </button>
